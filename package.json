@@ -1,0 +1,29 @@
+{
+  "name": "electron-autoupdate",
+  "version": "1.0.0",
+  "description": "This is an example to autoupdate the software.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason40418/electron-autoupdate.git"
+  },
+  "author": "Jason Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jason40418/electron-autoupdate/issues"
+  },
+  "homepage": "https://github.com/jason40418/electron-autoupdate#readme",
+  "devDependencies": {
+    "electron": "^9.2.1",
+    "electron-builder": "^22.8.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.4"
+  }
+}
