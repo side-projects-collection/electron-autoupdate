@@ -1,0 +1,4 @@
+appId: com.jason40418.electronautoupdate
+publish:
+  provider: github
+  token: [GitHub Access Token]
